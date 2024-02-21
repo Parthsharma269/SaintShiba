@@ -5,7 +5,74 @@
     margin: 0;
     text-decoration: none !important;
     box-sizing: border-box !important;
-    list-style: none;
+    list-style: none !important;
+    scroll-behavior: smooth;
+    transition: all 555ms linear;
+}
+
+:root {
+    --fs-14: 14px;
+    --fs-18: 18px;
+    --fs-22: 22px;
+    --fs-28: 28px;
+    --fs-36: 36px;
+    --fs-48: 48px;
+    --fs-96: 96px;
+
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+
+    --ff-poppins: "poppins", sans-serif;
+}
+
+.fs-14 {
+    font-size: var(--fs-14);
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-22 {
+    font-size: var(--fs-22);
+}
+
+.fs-28 {
+    font-size: var(--fs-28);
+}
+
+.fs-36 {
+    font-size: var(--fs-36);
+}
+
+.fs-48 {
+    font-size: var(--fs-48);
+}
+
+.fs-96 {
+    font-size: var(--fs-96);
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.ff-poppins {
+    font-family: "poppins", sans-serif;
 }
 
 .bg-black {
@@ -18,20 +85,10 @@
 
 .Saint {
     color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
 }
 
 .Shiba {
     color: #F06500;
-    font-family: 'Poppins', sans-serif;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
 }
 
 .btn-Connect-Wallet {
@@ -56,11 +113,6 @@
 
 .li {
     color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 180%;
 }
 
 .col-3 {
@@ -172,38 +224,28 @@
 
 .font-1 {
     color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 96px;
-    font-weight: 700;
+    max-width: 660px;
 }
 
 .font-2 {
     color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 48px;
-    font-weight: 600;
+}
+
+.font_2 {
+    color: #ffffff;
+    max-width: 660px;
 }
 
 .font-3 {
     color: #000000;
-    font-family: 'Poppins', sans-serif;
-    font-size: 22px;
-    font-weight: 600;
-    transition: all 250ms ease;
 }
 
 .font-4 {
     color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 14px;
-    font-weight: 400;
 }
 
 .font-5 {
     color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 28px;
-    font-weight: 600;
 }
 
 .font-5:hover {
@@ -212,39 +254,44 @@
 
 .font-6 {
     color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
+}
+
+.font_6 {
+    color: #ffffff;
 }
 
 .font-7 {
     color: #ffffff;
     text-align: right;
-    font-family: 'Poppins', sans-serif;
-    font-size: 36px;
-    font-weight: 600;
 }
 
 .font-8 {
     color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 22px;
-    font-weight: 600;
 }
 
 .paragraph {
     color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    font-size: 22px;
-    font-weight: 400;
+    max-width: 660px;
 }
 
 .paragraph-2 {
     color: #ffffff;
-    font-family: 'poppins', sans-serif;
-    font-size: 15px;
-    font-weight: 400;
-    transition: all 250ms ease;
+    max-width: 1272px;
+}
+
+.paragraph_2 {
+    color: #ffffff;
+    max-width: 660px;
+}
+
+.paragraph2 {
+    color: #ffffff;
+    max-width: 660px;
+}
+
+.Massa {
+    color: #ffffff;
+    max-width: 547px;
 }
 
 body {
@@ -387,6 +434,18 @@ tr:hover {
 }
 
 @media (max-width: 400px) {
+    :root {
+        --fs-96: 48px;
+        --fs-22: 13px;
+        --fs-48: 18px;
+        --fs-18: 13px;
+        --fs-36: 30px;
+    }
+
+    .circle {
+        width: 84px;
+        height: 60px;
+    }
 
     .timeline::after {
         left: 31px;
@@ -415,7 +474,6 @@ tr:hover {
     }
 
     .Roadmap::after {
-
         left: 8%;
         margin-left: 0;
     }
@@ -483,31 +541,18 @@ tr:hover {
 @media (max-width:992px) {
     .font-1 {
         color: #ffffff;
-        font-family: 'Poppins', sans-serif;
-        font-size: 48px;
-        font-weight: 700;
     }
 
     .font-3 {
         color: #ffffff;
         text-align: center;
-        font-family: 'Poppins', sans-serif;
-        font-size: 21px;
-        font-weight: 600;
     }
 
     .paragraph-2 {
         color: #ffffff;
-        font-family: 'poppins', sans-serif;
-        font-size: 17px;
-        font-weight: 400;
     }
 
     .font-3 {
         color: #000000;
-        font-family: 'Poppins', sans-serif;
-        font-size: 22px;
-        font-weight: 600;
     }
-
 }
