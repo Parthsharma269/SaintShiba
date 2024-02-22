@@ -466,6 +466,7 @@ tr:hover {
 
     .left::after,
     .right::after {
+        top: 16px;
         left: 18px;
     }
 
