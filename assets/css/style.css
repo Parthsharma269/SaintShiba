@@ -225,15 +225,19 @@
 .font-1 {
     color: #ffffff;
     max-width: 660px;
+    Line-height: 95.52px;
 }
 
 .font-2 {
     color: #ffffff;
+    max-width: 1272px;
+    Line-height: 61.44px;
 }
 
 .font_2 {
     color: #ffffff;
     max-width: 660px;
+    Line-height: 61.44px;
 }
 
 .font-3 {
@@ -242,10 +246,18 @@
 
 .font-4 {
     color: #ffffff;
+    max-width: 92px;
+    Line-height: 25.2px;
 }
 
 .font-5 {
     color: #ffffff;
+    max-width: 75px;
+    Line-height: 42px;
+}
+
+.pt-28 {
+    padding-top: 28%;
 }
 
 .font-5:hover {
@@ -254,10 +266,14 @@
 
 .font-6 {
     color: #ffffff;
+    max-width: 547px;
+    Line-height: 54px;
 }
 
 .font_6 {
     color: #ffffff;
+    max-width: 228px;
+    Line-height: 32.4px;
 }
 
 .font-7 {
@@ -267,31 +283,48 @@
 
 .font-8 {
     color: #ffffff;
+    max-width: 218px;
+    Line-height: 33px;
 }
 
 .paragraph {
     color: #ffffff;
     max-width: 660px;
+    Line-height: 33px;
+}
+
+.ParaGraph {
+    color: #ffffff;
+    max-width: 70px;
+    Line-height: 32.4px;
+    Opacity: 70%;
 }
 
 .paragraph-2 {
     color: #ffffff;
     max-width: 1272px;
+    Line-height: 32.4px;
+    Opacity: 70%;
+}
+
+.Paragraph {
+    color: #ffffff;
+    max-width: 56px;
+    Line-height: 32.4px;
 }
 
 .paragraph_2 {
     color: #ffffff;
     max-width: 660px;
+    Line-height: 32.4px;
+    Opacity: 70%;
 }
 
 .paragraph2 {
     color: #ffffff;
     max-width: 660px;
-}
-
-.Massa {
-    color: #ffffff;
-    max-width: 547px;
+    Line-height: 32.4px;
+    Opacity: 70%;
 }
 
 body {
@@ -309,6 +342,31 @@ tr {
 
 tr:hover {
     background-color: #0C0C0C;
+}
+
+.roadmap {
+    color: #ffffff;
+    max-width: 242px;
+    line-height: 61.44px;
+}
+
+.Massa {
+    color: #ffffff;
+    max-width: 547px;
+    line-height: 32.4px;
+    Opacity: 70%;
+}
+
+.FAQ {
+    color: #ffffff;
+    max-width: 98px;
+    line-height: 61.44px;
+}
+
+.Volutpat {
+    color: #ffffff;
+    max-width: 449px;
+    line-height: 33px;
 }
 
 .Roadmap {
@@ -430,7 +488,7 @@ tr:hover {
 }
 
 .custom-container {
-    max-width: 1632px !important;
+    max-width: 1320px !important;
 }
 
 @media (max-width: 400px) {
